@@ -15,6 +15,8 @@ export interface Model3D {
     markerUrl?: string, 
     rotation?: number[], 
     scale?: number[]
+    videoUrl?: string, 
+    audioUrl?: string
   }
 
 export interface Room {

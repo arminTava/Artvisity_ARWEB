@@ -94,6 +94,16 @@ const ModelViewer = ({ model }: ModelViewerProps) => {
               <span className="font-bold">Sujet: </span>
               <span>{model.modelSujet}</span>
             </span>
+            {model.videoUrl && (
+              <div className="mt-2 flex items-center bg-white rounded-lg p-2 justify-center cursor-pointer hover:bg-gray-600 hover:text-white">
+                <a href={model.videoUrl}>Zum Video</a>
+              </div>
+            )}
+            {model.audioUrl && (
+              <div className="mt-2 flex items-center bg-white rounded-lg p-2 justify-center cursor-pointer hover:bg-gray-600 hover:text-white">
+                <a href={model.audioUrl}>Zum Audio</a>
+              </div>
+            )}
           </div>
         </div>
       );
@@ -156,6 +166,16 @@ const ModelViewer = ({ model }: ModelViewerProps) => {
               <span className="font-bold">Sujet: </span>
               <span>{model.modelSujet}</span>
             </span>
+            {model.videoUrl && (
+              <div className="mt-2 flex items-center bg-white rounded-lg p-2 justify-center cursor-pointer hover:bg-gray-600 hover:text-white">
+                <a href={model.videoUrl}>Zum Video</a>
+              </div>
+            )}
+            {model.audioUrl && (
+              <div className="mt-2 flex items-center bg-white rounded-lg p-2 justify-center cursor-pointer hover:bg-gray-600 hover:text-white">
+                <a href={model.audioUrl}>Zum Audio</a>
+              </div>
+            )}
           </div>
           {/* <div className="">
             <Link href={`/markerar?gltfName=${model.modelUrl}`} passHref>
