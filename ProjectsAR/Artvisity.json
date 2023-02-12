@@ -1,0 +1,45 @@
+{
+  "name": "Artvisity",
+  "website": "https://www.artvisity.io",
+  "models": [
+    {
+      "modelName": "test",
+      "modelSujet": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,",
+      "modelYear": "2022",
+      "modelUrl": "https://api.onedrive.com/v1.0/shares/u!aHR0cHM6Ly9vbmVkcml2ZS5saXZlLmNvbS9lbWJlZD9jaWQ9NjhGOUU0M0FFQTNGQzM1MyZyZXNpZD02OEY5RTQzQUVBM0ZDMzUzJTIxMTA2JmF1dGhrZXk9QU9jUTF6a3lBaFBhSmNz/root/content",
+      "modelPoster": "https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b%2Fposter-astronaut.png?v=1599079951717",
+      "arMode": 0
+    },
+    {
+      "modelName": "test",
+      "modelSujet": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,",
+      "modelYear": "2022",
+      "modelUrl": "https://api.onedrive.com/v1.0/shares/u!aHR0cHM6Ly9vbmVkcml2ZS5saXZlLmNvbS9lbWJlZD9jaWQ9NjhGOUU0M0FFQTNGQzM1MyZyZXNpZD02OEY5RTQzQUVBM0ZDMzUzJTIxMTA3JmF1dGhrZXk9QUlrMmZmWDZobjZrVUZz/root/content",
+      "modelPoster": "https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b%2Fposter-astronaut.png?v=1599079951717",
+      "arMode": 0
+    },
+    {
+      "modelName": "Polynucleotide",
+      "modelSujet": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,",
+      "modelYear": "2022",
+      "modelUrl": "https://explore.artvisity.io/assets/art1/scene.gltf",
+      "modelPoster": "https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b%2Fposter-astronaut.png?v=1599079951717",
+      "arMode": 0
+    },
+    {
+      "modelName": "Dream Tunnel",
+      "modelSujet": "Lorem ipsum dolo",
+      "modelUrl": "https://explore.artvisity.io/assets/art2/scene.gltf",
+      "modelPoster": "https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b%2Fposter-astronaut.png?v=1599079951717",
+      "arMode": 1
+
+    },
+    {
+      "modelName": "Anomalistic Form",
+      "modelSujet": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata ",
+      "modelUrl": "https://explore.artvisity.io/assets/art3/scene.gltf",
+      "modelPoster": "https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b%2Fposter-astronaut.png?v=1599079951717",
+      "arMode": 0
+    }  
+  ]
+}

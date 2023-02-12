@@ -1,0 +1,49 @@
+{
+    "name": "Theatermuseum",
+    "website": "https://www.artvisity.io",
+    "models": [
+      {
+        "modelName": "test111",
+        "modelUrl": "Artvisity_Teaser_LR_C_2.glb",
+        "modelPoster": "https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b%2Fposter-astronaut.png?v=1599079951717",
+        "arMode": 0,
+        "modelBackground": "#70bcd1",
+        "scale": "30,30,30",
+        "markerUrl": "dummy/pinball"
+      },
+      {
+        "modelName": "theater",
+        "modelUrl": "theatermuseum_keys.glb",
+        "modelPoster": "https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b%2Fposter-astronaut.png?v=1599079951717",
+        "modelBackground": "#70bcd1",
+        "arMode": 0
+
+      },
+      {
+        "modelName": "theater",
+        "modelUrl": "new_gltf_exported/beads_animation_separate.gltf",
+        "modelPoster": "https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b%2Fposter-astronaut.png?v=1599079951717",
+        "modelBackground": "#70bcd1",
+        "arMode": 0
+
+      },
+      {
+        "modelName": "test2",
+        "modelUrl": "https://api.onedrive.com/v1.0/shares/u!aHR0cHM6Ly9vbmVkcml2ZS5saXZlLmNvbS9lbWJlZD9jaWQ9NThGN0E1NUMyQUZGQTdBQiZyZXNpZD01OEY3QTU1QzJBRkZBN0FCJTIxOTg5JmF1dGhrZXk9QUozVFBDd1RCTUtwVFhZ/root/content",
+        "modelPoster": "https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b%2Fposter-astronaut.png?v=1599079951717",
+        "modelBackground": "#70bcd1",
+        "arMode": 0
+
+      },
+      {
+        "modelName": "test3",
+        "modelUrl": "https://modelviewer.dev//shared-assets/models/NeilArmstrong.glb",
+        "modelPoster": "https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b%2Fposter-astronaut.png?v=1599079951717",
+        "arMode": 0,
+        "scale": "30,30,30", 
+        "rotation": "-45,0,0",
+        "markerUrl": "dummy/pinball"
+      
+      }  
+    ]
+}
