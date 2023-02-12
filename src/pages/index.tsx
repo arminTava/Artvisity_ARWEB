@@ -46,9 +46,7 @@ const IndexPage = () => {
     async () => {
       console.log("query", router.query);
       const { roomName } = router.query;
-      let response = await fetch(
-        "http://localhost:3000/api/get-model-data?roomName=" + roomName
-      ); //http://localhost:5001/artvisity/europe-west1/getWebRoom?Room= http://localhost:3005/get-model-data?name= https://explore.artvisity.io/ar/get-model-data?name=
+      let response = await fetch("/api/get-model-data?roomName=" + roomName); //http://localhost:5001/artvisity/europe-west1/getWebRoom?Room= http://localhost:3005/get-model-data?name= https://explore.artvisity.io/ar/get-model-data?name=
       const data: Room = await response.json();
       console.log("inside fetch query");
       return data;
