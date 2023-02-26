@@ -83,7 +83,7 @@ const ModelViewer = ({ model }: ModelViewerProps) => {
                     size={40}
                     className="hover:scale-125 cursor-pointer"
                   />
-                  <h3 className="text-[#ecf0f3] text-[10px] cursor-pointer">
+                  <h3 className="text-black text-[10px] cursor-pointer">
                     Go to AR
                   </h3>
                 </div>
