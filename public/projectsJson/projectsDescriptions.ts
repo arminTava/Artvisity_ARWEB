@@ -22,7 +22,7 @@ export const projectDataModel = {
         "modelPoster": "https://ams03pap002files.storage.live.com/y4mLxn1APlFy2NVSQPPMzw-wbmtCZAq_znfJRZA2hKuozfc8m1KWITWDNMTXhO8uAM5yk5Sir5lizHS5YwknBweUWfKmMVJNEF95rfR6TV8kBKVxbP4yKRLgiE4SlsVe1biZVdCOTukxhB9gtHVpFYaq8VXMtgFKhd57sp078mWTjsFrppe7TrMxFbazyp4nmMU?width=784&height=627&cropmode=none",
         "arMode": 0,
         "scale": "1,1,1", 
-        "videoUrl": "https://player.vimeo.com/video/799582358?h=b8b5a79c67",
+        "videoUrl": "https://www.youtube.com/embed/yOLks6rSDfk",
         "audioUrl": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1448504356%3Fsecret_token%3Ds-hRnonrIaZkv&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"      
       },
 
@@ -34,7 +34,7 @@ export const projectDataModel = {
         "modelPoster": "https://ams03pap002files.storage.live.com/y4mLxn1APlFy2NVSQPPMzw-wbmtCZAq_znfJRZA2hKuozfc8m1KWITWDNMTXhO8uAM5yk5Sir5lizHS5YwknBweUWfKmMVJNEF95rfR6TV8kBKVxbP4yKRLgiE4SlsVe1biZVdCOTukxhB9gtHVpFYaq8VXMtgFKhd57sp078mWTjsFrppe7TrMxFbazyp4nmMU?width=784&height=627&cropmode=none",
         "arMode": 0,
         "scale": "1,1,1", 
-        // "videoUrl": "https://www.google.com/",
+        "videoUrl": "https://www.youtube.com/embed/0OOpFlGXKes",
         
       },
       {
@@ -45,7 +45,7 @@ export const projectDataModel = {
         "modelPoster": "https://ams03pap002files.storage.live.com/y4mLxn1APlFy2NVSQPPMzw-wbmtCZAq_znfJRZA2hKuozfc8m1KWITWDNMTXhO8uAM5yk5Sir5lizHS5YwknBweUWfKmMVJNEF95rfR6TV8kBKVxbP4yKRLgiE4SlsVe1biZVdCOTukxhB9gtHVpFYaq8VXMtgFKhd57sp078mWTjsFrppe7TrMxFbazyp4nmMU?width=784&height=627&cropmode=none",
         "arMode": 0,
         "scale": "1,1,1", 
-        // "videoUrl": "https://www.google.com/",
+        "videoUrl": "https://www.youtube.com/embed/bRWZGhM5KL8",
         "audioUrl": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1448506894%3Fsecret_token%3Ds-No81q4e9FPw&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"      
       },
       {
@@ -56,7 +56,7 @@ export const projectDataModel = {
         "modelPoster": "https://ams03pap002files.storage.live.com/y4mLxn1APlFy2NVSQPPMzw-wbmtCZAq_znfJRZA2hKuozfc8m1KWITWDNMTXhO8uAM5yk5Sir5lizHS5YwknBweUWfKmMVJNEF95rfR6TV8kBKVxbP4yKRLgiE4SlsVe1biZVdCOTukxhB9gtHVpFYaq8VXMtgFKhd57sp078mWTjsFrppe7TrMxFbazyp4nmMU?width=784&height=627&cropmode=none",
         "arMode": 0,
         "scale": "1,1,1", 
-        "videoUrl": "https://player.vimeo.com/video/799589089?h=949aae8990",
+        "videoUrl": "https://www.youtube.com/embed/6tfuV6gUrq8",
         "audioUrl": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1448510092%3Fsecret_token%3Ds-bOtAabmnTRu&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"      
       },
       {
