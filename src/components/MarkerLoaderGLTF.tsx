@@ -26,7 +26,6 @@ export default function MarkerLoaderGLTF() {
     ARnft = (await import("../lib/dist/ARnft.js")).default;
     const ARnftThreejs = (await import("../lib/js/ARnftThreejs.js")).default; //needs three version 00.37
     //   const _ = (await import("../lib/js/third_party/three.min.js")).default;
-    console.log("ViewStart", ARnft.ARnft.cameraView);
     ARnft.ARnft.init(
       width,
       height,
@@ -36,7 +35,6 @@ export default function MarkerLoaderGLTF() {
       true
     )
       .then((nft: any) => {
-        console.log("ViewStart", ARnft.ARnft.cameraView);
         document.addEventListener("containerEvent", function (ev) {
           let canvas = document.getElementById("canvas");
           let fov = (0.8 * 180) / Math.PI;
@@ -95,7 +93,6 @@ export default function MarkerLoaderGLTF() {
               model.rotation.z = rotations[2];
             }
           }
-          console.log("url", gltfUrl);
           nftAddTJS.addModelWithCallback(
             gltfUrl,
             modelName,
@@ -133,7 +130,6 @@ export default function MarkerLoaderGLTF() {
       scale as string
     );
     const handleBrowseAway = () => {
-      console.log("Dismount");
       ARnft.ARnft.prototype.dispose();
       const element = document.getElementById("stats");
       if (element) element.remove();

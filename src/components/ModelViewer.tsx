@@ -1,7 +1,14 @@
 import "@google/model-viewer";
 import { ModelViewerElement } from "@google/model-viewer/lib/model-viewer";
-import { CSSProperties, MutableRefObject, useEffect, useRef } from "react";
+import {
+  CSSProperties,
+  MutableRefObject,
+  useEffect,
+  useRef,
+  useState,
+} from "react";
 import { Model3D, Room } from "../interfaces/models";
+import { VscDebugStart, VscDebugPause } from "react-icons/vsc";
 import Link from "next/link";
 import React from "react";
 import { Button } from "@material-tailwind/react";
@@ -44,6 +51,8 @@ const ModelViewer = ({ model }: ModelViewerProps) => {
   // });
 
   function setARMode(model: Model3D) {
+    const [showVideo, setshowVideo] = useState(false);
+    const [showAudio, setShowAudio] = useState(false);
     if (model.arMode == 0) {
       return (
         <div className="flex flex-col border-2 rounded-lg p-0 border-gray-300">
@@ -83,26 +92,58 @@ const ModelViewer = ({ model }: ModelViewerProps) => {
           </div>
           <div className="flex flex-col p-3">
             <span className="text-[#ecf0f3] ">
-              <span className="font-bold">Titel: </span>
+              <span className="font-bold">Station: </span>
               <span>{model.modelName}</span>
             </span>
             <span className="text-[#ecf0f3] ">
-              <span className="font-bold">Entstehungsjahr: </span>
+              <span className="font-bold">Objekt: </span>
               <span>{model.modelYear}</span>
             </span>
             <span className="text-[#ecf0f3] ">
-              <span className="font-bold">Sujet: </span>
+              <span className="font-bold">Inhalt: </span>
               <span>{model.modelSujet}</span>
             </span>
             {model.videoUrl && (
-              <div className="mt-2 flex items-center bg-white rounded-lg p-2 justify-center cursor-pointer hover:bg-gray-600 hover:text-white">
-                <a href={model.videoUrl}>Zum Video</a>
+              <div className="flex flex-col ">
+                {/* <a target="_blank" href={model.videoUrl}> */}
+                <div
+                  onClick={() => {
+                    setshowVideo(!showVideo);
+                    setShowAudio(false);
+                  }}
+                  className="mt-2 flex items-center bg-white rounded-lg p-2 justify-center cursor-pointer hover:bg-gray-600 hover:text-white"
+                >
+                  Zum Video
+                </div>
+                {/* </a> */}
+                <iframe
+                  className={showVideo ? "block h-72 w-full" : "hidden"}
+                  src={model.videoUrl}
+                  allow="autoplay"
+                ></iframe>
               </div>
             )}
             {model.audioUrl && (
-              <div className="mt-2 flex items-center bg-white rounded-lg p-2 justify-center cursor-pointer hover:bg-gray-600 hover:text-white">
-                <a href={model.audioUrl}>Zum Audio</a>
+              // <a target="_blank" href={model.audioUrl}>
+              <div className="flex flex-col ">
+                <div
+                  onClick={() => {
+                    setShowAudio(!showAudio);
+                    setshowVideo(false);
+                  }}
+                  className="mt-2 flex items-center bg-white rounded-lg p-2 justify-center cursor-pointer hover:bg-gray-600 hover:text-white"
+                >
+                  Zum Audio
+                  {/* {playAudio ? <VscDebugPause /> : <VscDebugStart />} */}
+                </div>
+                <iframe
+                  className={showAudio ? "block h-72 w-full" : "hidden"}
+                  src={model.audioUrl}
+                  allow="autoplay"
+                ></iframe>
               </div>
+
+              // </a>
             )}
           </div>
         </div>
@@ -167,14 +208,18 @@ const ModelViewer = ({ model }: ModelViewerProps) => {
               <span>{model.modelSujet}</span>
             </span>
             {model.videoUrl && (
-              <div className="mt-2 flex items-center bg-white rounded-lg p-2 justify-center cursor-pointer hover:bg-gray-600 hover:text-white">
-                <a href={model.videoUrl}>Zum Video</a>
-              </div>
+              <a target="_blank" href={model.videoUrl}>
+                <div className="mt-2 flex items-center bg-white rounded-lg p-2 justify-center cursor-pointer hover:bg-gray-600 hover:text-white">
+                  Zum Video
+                </div>
+              </a>
             )}
             {model.audioUrl && (
-              <div className="mt-2 flex items-center bg-white rounded-lg p-2 justify-center cursor-pointer hover:bg-gray-600 hover:text-white">
-                <a href={model.audioUrl}>Zum Audio</a>
-              </div>
+              <a target="_blank" href={model.audioUrl}>
+                <div className="mt-2 flex items-center bg-white rounded-lg p-2 justify-center cursor-pointer hover:bg-gray-600 hover:text-white">
+                  Zum Audio
+                </div>
+              </a>
             )}
           </div>
           {/* <div className="">

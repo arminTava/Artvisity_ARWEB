@@ -5,6 +5,7 @@ import React, { useEffect } from "react";
 import MarkerLoaderGLTF from "../../components/MarkerLoaderGLTF";
 
 export default function index() {
+  
   return (
     <div>
       {" "}

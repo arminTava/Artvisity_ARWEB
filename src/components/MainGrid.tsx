@@ -15,7 +15,6 @@ function MainGrid() {
   });
   useEffect(() => {
     async function fetchMyAPI(roomName: string | string[]) {
-      console.log("RoomName " + roomName);
       let response = await fetch(
         "http://localhost:3005/get-model-data?name=" + roomName
       ); //http://localhost:5001/artvisity/europe-west1/getWebRoom?Room=
@@ -25,7 +24,6 @@ function MainGrid() {
 
     if (!router.isReady) return;
     const { roomName } = router.query;
-    console.log("test " + roomName);
     fetchMyAPI(roomName);
     // var roomNew  = {
     //   name: "theater",

@@ -8,7 +8,6 @@ export default async function getModelData(
   res: NextApiResponse
 ) {
 
-  console.log("TEST TEST")
   if (req.method === 'GET') {
     const roomName = req.query.roomName as string;
     let d = projectDataModel[roomName] ? projectDataModel[roomName] : {} 
