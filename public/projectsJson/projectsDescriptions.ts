@@ -2,7 +2,6 @@
 export const projectDataModel = {
  "maytour":{
     "name": "maytour",
-    "website": "https://www.artvisity.io",
     "models": [
       {
         "modelName": "Teaser Trailer",
@@ -15,7 +14,7 @@ export const projectDataModel = {
         "videoUrl": "https://www.youtube.com/embed/q-JDKluPDek",
       },
       {
-        "modelName": "Station1",
+        "modelName": "1",
         "modelYear": "Mayhaus",
         "modelSujet": "Musterhaus & Frankfurter Küche",
         "modelUrl": "https://api.onedrive.com/v1.0/shares/u!aHR0cHM6Ly9vbmVkcml2ZS5saXZlLmNvbS9lbWJlZD9jaWQ9QjI0QTg4RkVENEIyNDM1RCZyZXNpZD1CMjRBODhGRUQ0QjI0MzVEJTIxMTA5JmF1dGhrZXk9QUdzdGRtVXhzd1RON3FZ/root/content",
@@ -27,7 +26,7 @@ export const projectDataModel = {
       },
 
       {
-        "modelName": "Station2",
+        "modelName": "2",
         "modelYear": "Bastion",
         "modelSujet": "Natur- und Freizeitraum der Nidda",
         "modelUrl": "https://api.onedrive.com/v1.0/shares/u!aHR0cHM6Ly9vbmVkcml2ZS5saXZlLmNvbS9lbWJlZD9jaWQ9QjI0QTg4RkVENEIyNDM1RCZyZXNpZD1CMjRBODhGRUQ0QjI0MzVEJTIxMTEwJmF1dGhrZXk9QU9MMHoxVU1JTC1LU0hr/root/content",
@@ -38,7 +37,7 @@ export const projectDataModel = {
         
       },
       {
-        "modelName": "Station3",
+        "modelName": "3",
         "modelYear": "Hadrianstr.",
         "modelSujet": "Bullaugenfenster & Schiffsarchitektur",
         "modelUrl": "https://api.onedrive.com/v1.0/shares/u!aHR0cHM6Ly9vbmVkcml2ZS5saXZlLmNvbS9lbWJlZD9jaWQ9QjI0QTg4RkVENEIyNDM1RCZyZXNpZD1CMjRBODhGRUQ0QjI0MzVEJTIxMTA2JmF1dGhrZXk9QUVzcEhrWGFTOG15RjVN/root/content",
@@ -49,7 +48,7 @@ export const projectDataModel = {
         "audioUrl": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1448506894%3Fsecret_token%3Ds-No81q4e9FPw&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"      
       },
       {
-        "modelName": "Station4",
+        "modelName": "4",
         "modelYear": "Am Forum",
         "modelSujet": "Variation & Abwechslung der Einfamilienreihenhäuser",
         "modelUrl": "https://api.onedrive.com/v1.0/shares/u!aHR0cHM6Ly9vbmVkcml2ZS5saXZlLmNvbS9lbWJlZD9jaWQ9QjI0QTg4RkVENEIyNDM1RCZyZXNpZD1CMjRBODhGRUQ0QjI0MzVEJTIxMTA4JmF1dGhrZXk9QU1uci1KLXRFdkpaQjNN/root/content",
@@ -60,7 +59,7 @@ export const projectDataModel = {
         "audioUrl": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1448510092%3Fsecret_token%3Ds-bOtAabmnTRu&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"      
       },
       {
-        "modelName": "Station5",
+        "modelName": "5",
         "modelYear": "Kleingarten",
         "modelSujet": "Selbstversorung und der ideale Garten",
         "modelUrl": "https://api.onedrive.com/v1.0/shares/u!aHR0cHM6Ly9vbmVkcml2ZS5saXZlLmNvbS9lbWJlZD9jaWQ9QjI0QTg4RkVENEIyNDM1RCZyZXNpZD1CMjRBODhGRUQ0QjI0MzVEJTIxMTEzJmF1dGhrZXk9QUJqYVJtNTM4RDdxVFQ0/root/content",

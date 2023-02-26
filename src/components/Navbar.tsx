@@ -15,8 +15,9 @@ const Navbar2 = ({ website }: NavbarProps) => {
 
   useEffect(() => {
     // window.addEventListener('scroll', handleShadow);
+
     website === undefined ? setNavBack(true) : setNavBack(false);
-  }, []);
+  }, [website]);
 
   return (
     <div className="fixed w-full h-14 shadow-xl z-[100] ease-in-out duration-300 bg-black">
