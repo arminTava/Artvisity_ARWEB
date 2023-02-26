@@ -12,7 +12,7 @@ export const projectDataModel = {
         "modelPoster": "https://ams03pap002files.storage.live.com/y4mLxn1APlFy2NVSQPPMzw-wbmtCZAq_znfJRZA2hKuozfc8m1KWITWDNMTXhO8uAM5yk5Sir5lizHS5YwknBweUWfKmMVJNEF95rfR6TV8kBKVxbP4yKRLgiE4SlsVe1biZVdCOTukxhB9gtHVpFYaq8VXMtgFKhd57sp078mWTjsFrppe7TrMxFbazyp4nmMU?width=784&height=627&cropmode=none",
         "arMode": 0,
         "scale": "1,1,1", 
-        // "videoUrl": "https://player.vimeo.com/video/799589089?h=949aae8990",
+        "videoUrl": "https://www.youtube.com/embed/q-JDKluPDek",
       },
       {
         "modelName": "Station1",
