@@ -1,4 +1,4 @@
-# Augemnted Reality in Web 
+# Augmented Reality in Web 
 
 This application shows 3d models, which you can also see in Augmented Reality. There are also additional features like video and audio.
 
