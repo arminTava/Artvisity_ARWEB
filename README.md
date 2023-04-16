@@ -5,7 +5,7 @@ This application shows 3d models, which you can also see in Augmented Reality. T
 
 ## Notes
 
-This example shows how to integrate the TypeScript type system into Next.js. Since TypeScript is supported out of the box with Next.js, all we have to do is to install TypeScript.
+This example shows how to integrate the TypeScript type system into Next.js. Since TypeScript is supported out of the box with Next.js, all we have to do is to install TypeScript
 
 ```
 npm install --save-dev typescript
